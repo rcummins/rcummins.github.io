@@ -2538,6 +2538,25 @@ input, select, textarea {
 					padding-top: 0;
 				}
 
+		ul.actions.stacked.centered {
+			-moz-flex-direction: column;
+			-webkit-flex-direction: column;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			align-items: center;
+			margin-left: 0;
+		}
+
+			ul.actions.stacked.centered li {
+				padding: 1.3em 0 0 0;
+				width: 100%;
+				margin-left: 0;
+			}
+
+				ul.actions.stacked.centered li:first-child {
+					padding-top: 0;
+				}
+
 		ul.actions.fit {
 			width: calc(100% + 1em);
 		}
