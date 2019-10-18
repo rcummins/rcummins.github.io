@@ -2543,7 +2543,6 @@ input, select, textarea {
 			-webkit-flex-direction: column;
 			-ms-flex-direction: column;
 			flex-direction: column;
-			align-items: center;
 			margin-left: 0;
 		}
 
