@@ -62,12 +62,21 @@
 													href="https://renata-recipe-share.herokuapp.com/#/"
 													target="_blank"
 													class="button primary icon solid fa-laptop"
-													onClick="gtag('event', 'link_click', {'event_category': 'portfolio_item', 'event_label': 'recipe_share'});"
+													onClick="gtag('event', 'portfolio_live_link_click', {'event_category': 'recipe_share_live'});"
 												>
 													See it live
 												</a>
 											</li>
-											<li><a href="https://github.com/rcummins/recipe_share" target="_blank" class="button icon solid fa-code">Source code</a></li>
+											<li>
+												<a
+													href="https://github.com/rcummins/recipe_share"
+													target="_blank"
+													class="button icon solid fa-code"
+													onClick="gtag('event', 'portfolio_source_link_click', {'event_category': 'recipe_share_source'});"
+												>
+													Source code
+												</a>
+											</li>
 										</ul>
 									</li>
 									<li>
@@ -75,8 +84,26 @@
 										<h3>Minesweeper</h3>
 										<p>Clone of the classic PC game built with JavaScript and React. Includes a flag-counter, timer, and Rails-backed scoreboard.</p>
 										<ul class="actions stacked centered">
-											<li><a href="https://renata-minesweeper.herokuapp.com/" target="_blank" class="button primary icon solid fa-laptop">See it live</a></li>
-											<li><a href="https://github.com/rcummins/minesweeper" target="_blank" class="button icon solid fa-code">Source code</a></li>
+											<li>
+												<a
+													href="https://renata-minesweeper.herokuapp.com/"
+													target="_blank"
+													class="button primary icon solid fa-laptop"
+													onClick="gtag('event', 'portfolio_live_link_click', {'event_category': 'minesweeper_live'});"
+												>
+													See it live
+												</a>
+											</li>
+											<li>
+												<a
+													href="https://github.com/rcummins/minesweeper"
+													target="_blank"
+													class="button icon solid fa-code"
+													onClick="gtag('event', 'portfolio_source_link_click', {'event_category': 'minesweeper_source'});"
+													>
+													Source code
+												</a>
+											</li>
 										</ul>
 									</li>
 									<li>
@@ -84,8 +111,26 @@
 										<h3>Todos App</h3>
 										<p>Single-page Rails/React-Redux app for tracking your to-do list. Each todo can include multiple detailed steps, and both steps & todos can be marked as done.</p>
 										<ul class="actions stacked centered">
-											<li><a href="https://renata-todos-app.herokuapp.com/#/" target="_blank" class="button primary icon solid fa-laptop">See it live</a></li>
-											<li><a href="https://github.com/rcummins/todos_app" target="_blank" class="button icon solid fa-code">Source code</a></li>
+											<li>
+												<a
+													href="https://renata-todos-app.herokuapp.com/#/"
+													target="_blank"
+													class="button primary icon solid fa-laptop"
+													onClick="gtag('event', 'portfolio_live_link_click', {'event_category': 'todos_app_live'});"
+												>
+													See it live
+												</a>
+											</li>
+											<li>
+												<a
+													href="https://github.com/rcummins/todos_app"
+													target="_blank"
+													class="button icon solid fa-code"
+													onClick="gtag('event', 'portfolio_source_link_click', {'event_category': 'todos_app_source'});"
+												>
+													Source code
+												</a>
+											</li>
 										</ul>
 									</li>
 								</ul>
@@ -119,7 +164,15 @@
 										</header>
 										<p>I'm Renata, a software engineer with a background in data analysis. My favorite part of data analysis was writing code to integrate multiple data sources with the flexibility to adapt to any changes in the methodology or requirements. Following my passion for building things with code, I took some time off work to gain experience with Ruby, Rails, JavaScript and React. I'm looking for an engineering role where I can continue learning.</p>
 										<ul class="actions">
-											<li><a href="" class="button primary icon solid fa-download">Resume</a></li>
+											<li>
+												<a
+													href=""
+													class="button primary icon solid fa-download"
+													onClick="gtag('event', 'resume_download', {'event_category': 'about_me_resume_button'});"
+												>
+													Resume
+												</a>
+											</li>
 										</ul>
 									</div>
 									<span class="image"><img src="images/profile_pic.jpeg" alt="Renata Cummins" /></span>
@@ -145,11 +198,34 @@
 									<div class="col-6 col-12-medium">
 										<dl class="alt">
 											<dt>Github</dt>
-											<dd><a href="https://github.com/rcummins" target="_blank"><span class="icon brands fa-github">/rcummins</a></dd>
+											<dd>
+												<a
+													href="https://github.com/rcummins"
+													target="_blank"
+													onClick="gtag('event', 'github_page_link_click', {'event_category': 'contact_info_github'});"
+												>
+													<span class="icon brands fa-github">/rcummins
+												</a>
+											</dd>
 											<dt>LinkedIn</dt>
-											<dd><a href="https://www.linkedin.com/in/renatacummins/" target="_blank"><span class="icon brands fa-linkedin">/renatacummins</a></dd>
+											<dd>
+												<a
+													href="https://www.linkedin.com/in/renatacummins/"
+													target="_blank"
+													onClick="gtag('event', 'linkedin_link_click', {'event_category': 'contact_info_linkedin'});"
+												>
+													<span class="icon brands fa-linkedin">/renatacummins
+												</a>
+											</dd>
 											<dt>Resume</dt>
-											<dd><a href=""><span class="icon fa-file-pdf"> download resume</a></dd>
+											<dd>
+												<a
+													href=""
+													onClick="gtag('event', 'resume_download', {'event_category': 'contact_info_resume'});"
+												>
+													<span class="icon fa-file-pdf"> download resume
+												</a>
+											</dd>
 										</dl>
 									</div>
 								</div>
