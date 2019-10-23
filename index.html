@@ -57,7 +57,16 @@
 										<h3>Recipe Share</h3>
 										<p>Single-page app with Rails back end and React-Redux front end. Users can post and rate recipes, sort recipes by rating, and add recipes to their list of favorites.</p>
 										<ul class="actions stacked centered">
-											<li><a href="https://renata-recipe-share.herokuapp.com/#/" target="_blank" class="button primary icon solid fa-laptop">See it live</a></li>
+											<li>
+												<a
+													href="https://renata-recipe-share.herokuapp.com/#/"
+													target="_blank"
+													class="button primary icon solid fa-laptop"
+													onClick="gtag('event', 'link_click', {'event_category': 'portfolio_item', 'event_label': 'recipe_share'});"
+												>
+													See it live
+												</a>
+											</li>
 											<li><a href="https://github.com/rcummins/recipe_share" target="_blank" class="button icon solid fa-code">Source code</a></li>
 										</ul>
 									</li>
