@@ -2509,6 +2509,10 @@ input, select, textarea {
 			vertical-align: middle;
 		}
 
+		ul.actions li .button {
+			width: 10em;
+		}
+
 		ul.actions.special {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
@@ -2538,23 +2542,11 @@ input, select, textarea {
 					padding-top: 0;
 				}
 
-		ul.actions.stacked.centered {
-			-moz-flex-direction: column;
-			-webkit-flex-direction: column;
-			-ms-flex-direction: column;
-			flex-direction: column;
-			margin-left: 0;
-		}
-
 			ul.actions.stacked.centered li {
-				padding: 1.3em 0 0 0;
 				width: 100%;
+				margin-top: 0;
 				margin-left: 0;
 			}
-
-				ul.actions.stacked.centered li:first-child {
-					padding-top: 0;
-				}
 
 		ul.actions.fit {
 			width: calc(100% + 1em);
