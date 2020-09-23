@@ -3083,6 +3083,18 @@ input, select, textarea {
 			letter-spacing: -0.025em;
 		}
 
+		#header > * {
+			-moz-transition: opacity 1s ease;
+			-webkit-transition: opacity 1s ease;
+			-ms-transition: opacity 1s ease;
+			transition: opacity 1s ease;
+			-moz-transition-delay: 0s;
+			-webkit-transition-delay: 0s;
+			-ms-transition-delay: 0s;
+			transition-delay: 0s;
+			opacity: 1;
+		}
+
 		#header.alt {
 			padding: 7em 5em 4em 5em ;
 		}
@@ -3196,6 +3208,10 @@ input, select, textarea {
 		}
 
 		body.is-preload #header.alt > * {
+			opacity: 0;
+		}
+
+		body.is-preload #header > * {
 			opacity: 0;
 		}
 
